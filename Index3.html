@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <img src="recursos/dental_clinic.svg" alt="Logo clinica dental" width="100">
+        <h1>Datos Personales Del Paciente</h1>
+    </header>
+    <main>
+        <form action="" name=" Historia Clínica de los Pacientes" method="post">
+            <label for="CI">CI: </label>
+            <input type="number" name="CI"><br><br>
+
+            <label for="foto">Foto:</label>
+            <input type="file" name="foto" id="foto" accept="image/*" required><br><br>
+
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br><br>
+
+            <label for="fecha nacimiento">Fecha de nacimiento: </label>
+            <input type="date" name="fecha de nacimiento"><br><br>
+
+            <label for="genero">Sexo:</label><br>
+            <input type="radio" id="masculino" name="genero" value="Masculino" required>
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="femenino" name="genero" value="Femenino">
+            <label for="femenino">Femenino</label><br><br>
+
+            <label for="nombre representante">Nombre del Representante: </label>
+            <input type="text" id="nombre representante" name="nombre representante"><br><br>
+
+            <label for="telefono">Telefonos de contacto:</label>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+
+            <label for="sala">Sala:</label><br>
+            <select name="sala" id="sala" required>
+                <option value="">--Seleccione--</option>
+                <option value="emergencia">Emergencia</option>
+                <option value="sala a">Sala A</option>
+                <option value="laboratorio">Laboratorio</option>
+                <option value="rayos x">Rayos X</option>
+                <option value="hospitalizacion">Hospitalización</option>
+            </select><br><br>
+            
+            <label for="direccion">Dirección:</label>
+            <textarea name="direccion" id="direccion"></textarea><br><br>
+
+            <label for="pais">País:</label><br>
+            <select name="pais" id="pais" required>
+                <option value="">--Seleccione--</option>
+                <option value="colombia">Colombia</option>
+                <option value="peru">Peru</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="ecuador">Ecuador</option>
+                <option value="panama">Panama</option>
+                <option value="brasil">Brasil</option>
+            </select><br><br>
+            
+            <label for="departamento">Departamento: </label>
+            <input type="text" id="" name="departamento"><br><br>
+
+            <label for="provincia">Provincia: </label>
+            <input type="text" id="" name="provincia"><br><br>
+
+            <label for="distrito">Distrito: </label>
+            <input type="text" id="" name="distrito"><br><br>
+
+            <label for="estado civil">Estado Civil:</label><br>
+            <select name="estado civil" id="estado civil" required>
+                <option value="">--Seleccione--</option>
+                <option value="soltero">Soltero</option>
+                <option value="casado">Casado</option>
+                <option value="viudo">Viudo</option>
+                <option value="union libre">Union Libre</option>
+                <option value="separado">Separado</option>
+                <option value="divorciado">Divorsiado</option>
+            </select><br><br>
+
+            <label for="emergencia">Emergencia: </label>
+            <input type="text" id="" name="emergencia"><br><br>
+            
+
+
+
+
+
+        <div>
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+        </div>
+
+        </form>
+    </main>
+</body>
+</html>
